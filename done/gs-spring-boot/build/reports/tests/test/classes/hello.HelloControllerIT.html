@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class hello.HelloControllerIT</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class hello.HelloControllerIT</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/hello.html">hello</a> &gt; HelloControllerIT</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">1</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.601s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">getHello</td>
+<td class="success">0.601s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>09:53:00.487 [Test worker] DEBUG org.springframework.test.context.junit4.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class hello.HelloControllerIT]
+09:53:00.509 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+09:53:00.539 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+09:53:00.609 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [hello.HelloControllerIT] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+09:53:00.643 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [hello.HelloControllerIT], using SpringBootContextLoader
+09:53:00.650 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [hello.HelloControllerIT]: class path resource [hello/HelloControllerIT-context.xml] does not exist
+09:53:00.651 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [hello.HelloControllerIT]: class path resource [hello/HelloControllerITContext.groovy] does not exist
+09:53:00.654 [Test worker] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [hello.HelloControllerIT]: no resource found for suffixes {-context.xml, Context.groovy}.
+09:53:00.655 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [hello.HelloControllerIT]: HelloControllerIT does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+09:53:00.756 [Test worker] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [hello.HelloControllerIT]
+09:53:00.785 [Test worker] DEBUG org.springframework.core.env.StandardEnvironment - Adding PropertySource 'systemProperties' with lowest search precedence
+09:53:00.786 [Test worker] DEBUG org.springframework.core.env.StandardEnvironment - Adding PropertySource 'systemEnvironment' with lowest search precedence
+09:53:00.788 [Test worker] DEBUG org.springframework.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [MapPropertySource@1317099965 {name='systemProperties', properties={java.runtime.name=Java(TM) SE Runtime Environment, sun.boot.library.path=/usr/java/jdk1.8.0_121/jre/lib/amd64, java.vm.version=25.121-b13, java.vm.vendor=Oracle Corporation, java.vendor.url=http://java.oracle.com/, path.separator=:, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, file.encoding.pkg=sun.io, sun.java.launcher=SUN_STANDARD, user.country=US, sun.os.patch.level=unknown, java.vm.specification.name=Java Virtual Machine Specification, user.dir=/home/alexdemoraes/project/workspace/gs-spring-boot, java.runtime.version=1.8.0_121-b13, java.awt.graphicsenv=sun.awt.X11GraphicsEnvironment, java.endorsed.dirs=/usr/java/jdk1.8.0_121/jre/lib/endorsed, os.arch=amd64, java.io.tmpdir=/tmp, line.separator=
+, java.vm.specification.vendor=Oracle Corporation, user.variant=, os.name=Linux, sun.jnu.encoding=UTF-8, java.library.path=/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib, java.specification.name=Java Platform API Specification, java.class.version=52.0, org.gradle.native=false, java.net.preferIPv4Stack=true, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, os.version=3.10.0-693.2.2.el7.x86_64, user.home=/home/alexdemoraes, user.timezone=America/Sao_Paulo, java.awt.printerjob=sun.print.PSPrinterJob, file.encoding=UTF-8, java.specification.version=1.8, java.class.path=/home/alexdemoraes/project/workspace/gs-spring-boot/build/classes/java/test:/home/alexdemoraes/project/workspace/gs-spring-boot/build/resources/test:/home/alexdemoraes/project/workspace/gs-spring-boot/build/classes/java/main:/home/alexdemoraes/project/workspace/gs-spring-boot/build/resources/main:/home/alexdemoraes/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-web/2.0.5.RELEASE/52daa1f1509bd637a737206e54c06a17aabb9504/spring-boot-starter-web-2.0.5.RELEASE.jar:/home/alexdemoraes/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-actuator/2.0.5.RELEASE/d5153c71f55aa39593fb6295790aad7cd81ef296/spring-boot-starter-actuator-2.0.5.RELEASE.jar:/home/alexdemoraes/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-test/2.0.5.RELEASE/ab04ca2e76f6a8e786001352a81a10e4b0e7fbc8/spring-boot-starter-test-2.0.5.RELEASE.jar:/home/alexdemoraes/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/2973d150c0dc1fefe998f834810d68f278ea58ec/junit-4.12.jar:/home/alexdemoraes/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-json/2.0.5.RELEASE/d0052ded4733ceb1fb7d927238f22f9a92099227/spring-boot-starter-json-2.0.5.RELEASE.jar:/home/alexdemoraes/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter/2.0.5.RELEASE/1f53487a373be18d064a5815e9bac9882ef15cdc/spring-boot-starter-2.0.5.RELEASE.jar:/home/alexdemoraes/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-tomcat/2.0.5.RELEASE/eaac8a5d73b45400bc88cd7f6b5c99b5f0d5e9b7/spring-boot-starter-tomcat-2.0.5.RELEASE.jar:/home/alexdemoraes/.gradle/caches/modules-2/files-2.1/org.hibernate.validator/hibernate-validator/6.0.12.Final/478003e61b056c1f97840ba3e62ff31cdc89597/hibernate-validator-6.0.12.Final.jar:/home/alexdemoraes/.gradle/caches/modules-2/files-2.1/org.springframework/spring-webmvc/5.0.9.RELEASE/c18346caaeb8dc648c4cc01874996fd9fef76664/spring-webmvc-5.0.9.RELEASE.jar:/home/alexdemoraes/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/5.0.9.RELEASE/1ea3aab93340849313fa74ec626ddaf1fff9ed8e/spring-web-5.0.9.RELEASE.jar:/home/alexdemoraes/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-actuator-autoconfigure/2.0.5.RELEASE/b29cda343b80e9294646070a5e0d353c3f9f01d1/spring-boot-actuator-autoconfigure-2.0.5.RELEASE.jar:/home/alexdemoraes/.gradle/caches/modules-2/files-2.1/io.micrometer/micrometer-core/1.0.6/50299bc8a34c251d62311bbb1a297f3942a82e42/micrometer-core-1.0.6.jar:/home/alexdemoraes/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-library/1.3/4785a3c21320980282f9f33d0d1264a69040538f/hamcrest-library-1.3.jar:/home/alexdemoraes/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/1.3/42a25dc3219429f0e5d060061f71acb49bf010a0/hamcrest-core-1.3.jar:/home/alexdemoraes/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-test-autoconfigure/2.0.5.RELEASE/54d5e8f9e88c6236fe164474f0aed5a8a1052c43/spring-boot-test-autoconfigure-2.0.5.RELEASE.jar:/home/alexdemoraes/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-test/2.0.5.RELEASE/ce6353f33217982357a6bdba6576015ea333304c/spring-boot-test-2.0.5.RELEASE.jar:/home/alexdemoraes/.gradle/caches/modules-2/files-2.1/com.jayway.jsonpath/json-path/2.4.0/765a4401ceb2dc8d40553c2075eb80a8fa35c2ae/json-path-2.4.0.jar:/home/alexdemoraes/.gradle/caches/modules-2/files-2.1/org.assertj/assertj-core/3.9.1/c5ce126b15f28d56cd8f960c1a6a058b9c9aea87/assertj-core-3.9.1.jar:/home/alexdemoraes/.gradle/caches/modules-2/files-2.1/org.mockito/mockito-core/2.15.0/b84bfbbc29cd22c9529409627af6ea2897f4fa85/mockito-core-2.15.0.jar:/home/alexdemoraes/.gradle/caches/modules-2/files-2.1/org.skyscreamer/jsonassert/1.5.0/6c9d5fe2f59da598d9aefc1cfc6528ff3cf32df3/jsonassert-1.5.0.jar:/home/alexdemoraes/.gradle/caches/modules-2/files-2.1/org.springframework/spring-test/5.0.9.RELEASE/218c8648f898453be92d550252e0ce2a84b54375/spring-test-5.0.9.RELEASE.jar:/home/alexdemoraes/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-autoconfigure/2.0.5.RELEASE/e5588642799e0c0c04638e255c3d3f31ba400ff4/spring-boot-autoconfigure-2.0.5.RELEASE.jar:/home/alexdemoraes/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-actuator/2.0.5.RELEASE/7daa40cc91678aee37009b595c4cee4b05de3d68/spring-boot-actuator-2.0.5.RELEASE.jar:/home/alexdemoraes/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot/2.0.5.RELEASE/19a4624cbd89a318d10c79f289c6c816043850fb/spring-boot-2.0.5.RELEASE.jar:/home/alexdemoraes/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/5.0.9.RELEASE/2501e55acb6c2e84667cda3f845d1d00a0dc4e05/spring-context-5.0.9.RELEASE.jar:/home/alexdemoraes/.gradle/caches/modules-2/files-2.1/org.springframework/spring-expression/5.0.9.RELEASE/1f9db5ff3a758102c0434cc3457aa47c50c39a4a/spring-expression-5.0.9.RELEASE.jar:/home/alexdemoraes/.gradle/caches/modules-2/files-2.1/org.springframework/spring-aop/5.0.9.RELEASE/98003b099697fe46b6bdf18c7e3f66d7a1381060/spring-aop-5.0.9.RELEASE.jar:/home/alexdemoraes/.gradle/caches/modules-2/files-2.1/org.springframework/spring-beans/5.0.9.RELEASE/65f56fdab1bb90ad059e314d2f2f4cf76f9bdbde/spring-beans-5.0.9.RELEASE.jar:/home/alexdemoraes/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/5.0.9.RELEASE/9f9a828936d81afd49a603bda9cc1aed863a0d85/spring-core-5.0.9.RELEASE.jar:/home/alexdemoraes/.gradle/caches/modules-2/files-2.1/org.xmlunit/xmlunit-core/2.5.1/4ffdb346572a7356f7521cd3119ce5287d2e339d/xmlunit-core-2.5.1.jar:/home/alexdemoraes/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-logging/2.0.5.RELEASE/c353e0b9591d0765c687ff0a678478cbebfd5c23/spring-boot-starter-logging-2.0.5.RELEASE.jar:/home/alexdemoraes/.gradle/caches/modules-2/files-2.1/javax.annotation/javax.annotation-api/1.3.2/934c04d3cfef185a8008e7bf34331b79730a9d43/javax.annotation-api-1.3.2.jar:/home/alexdemoraes/.gradle/caches/modules-2/files-2.1/org.yaml/snakeyaml/1.19/2d998d3d674b172a588e54ab619854d073f555b5/snakeyaml-1.19.jar:/home/alexdemoraes/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.datatype/jackson-datatype-jdk8/2.9.6/456895fc91bf7180b216fead220373e6278230c9/jackson-datatype-jdk8-2.9.6.jar:/home/alexdemoraes/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.datatype/jackson-datatype-jsr310/2.9.6/ea54f6193d224e5e5732bbd4262327eb465397c2/jackson-datatype-jsr310-2.9.6.jar:/home/alexdemoraes/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.module/jackson-module-parameter-names/2.9.6/129acd77a4b6ee30d62d3a0899b1344c8ec2bff8/jackson-module-parameter-names-2.9.6.jar:/home/alexdemoraes/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.9.6/cfa4f316351a91bfd95cb0644c6a2c95f52db1fc/jackson-databind-2.9.6.jar:/home/alexdemoraes/.gradle/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-websocket/8.5.34/5f86906367c2540b21e6aeecc277d2ce9ec939b0/tomcat-embed-websocket-8.5.34.jar:/home/alexdemoraes/.gradle/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-core/8.5.34/a038040d68a90397f95dd1e11b979fe364a5000f/tomcat-embed-core-8.5.34.jar:/home/alexdemoraes/.gradle/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-el/8.5.34/be71a9a5bdd001db7cf97c47429eec0bdd3b7b88/tomcat-embed-el-8.5.34.jar:/home/alexdemoraes/.gradle/caches/modules-2/files-2.1/javax.validation/validation-api/2.0.1.Final/cb855558e6271b1b32e716d24cb85c7f583ce09e/validation-api-2.0.1.Final.jar:/home/alexdemoraes/.gradle/caches/modules-2/files-2.1/org.jboss.logging/jboss-logging/3.3.2.Final/3789d00e859632e6c6206adc0c71625559e6e3b0/jboss-logging-3.3.2.Final.jar:/home/alexdemoraes/.gradle/caches/modules-2/files-2.1/com.fasterxml/classmate/1.3.4/3d5f48f10bbe4eb7bd862f10c0583be2e0053c6/classmate-1.3.4.jar:/home/alexdemoraes/.gradle/caches/modules-2/files-2.1/org.hdrhistogram/HdrHistogram/2.1.10/9e1ac84eed220281841b75e72fb9de5a297fbf04/HdrHistogram-2.1.10.jar:/home/alexdemoraes/.gradle/caches/modules-2/files-2.1/org.latencyutils/LatencyUtils/2.0.3/769c0b82cb2421c8256300e907298a9410a2a3d3/LatencyUtils-2.0.3.jar:/home/alexdemoraes/.gradle/caches/modules-2/files-2.1/net.minidev/json-smart/2.3/7396407491352ce4fa30de92efb158adb76b5b/json-smart-2.3.jar:/home/alexdemoraes/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-classic/1.2.3/7c4f3c474fb2c041d8028740440937705ebb473a/logback-classic-1.2.3.jar:/home/alexdemoraes/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-to-slf4j/2.10.0/f7e631ccf49cfc0aefa4a2a728da7d374c05bd3c/log4j-to-slf4j-2.10.0.jar:/home/alexdemoraes/.gradle/caches/modules-2/files-2.1/org.slf4j/jul-to-slf4j/1.7.25/af5364cd6679bfffb114f0dec8a157aaa283b76/jul-to-slf4j-1.7.25.jar:/home/alexdemoraes/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.25/da76ca59f6a57ee3102f8f9bd9cee742973efa8a/slf4j-api-1.7.25.jar:/home/alexdemoraes/.gradle/caches/modules-2/files-2.1/net.bytebuddy/byte-buddy/1.7.11/f02857a4e2c66ccbe7aaad6100a0a6c461bce9b3/byte-buddy-1.7.11.jar:/home/alexdemoraes/.gradle/caches/modules-2/files-2.1/net.bytebuddy/byte-buddy-agent/1.7.11/b425a8933ca07edd03c6dbc8bc3b595fba9780de/byte-buddy-agent-1.7.11.jar:/home/alexdemoraes/.gradle/caches/modules-2/files-2.1/org.objenesis/objenesis/2.6/639033469776fd37c08358c6b92a4761feb2af4b/objenesis-2.6.jar:/home/alexdemoraes/.gradle/caches/modules-2/files-2.1/com.vaadin.external.google/android-json/0.0.20131108.vaadin1/fa26d351fe62a6a17f5cda1287c1c6110dec413f/android-json-0.0.20131108.vaadin1.jar:/home/alexdemoraes/.gradle/caches/modules-2/files-2.1/org.springframework/spring-jcl/5.0.9.RELEASE/bc3b5aaae53f0bc03647e53ecbd98a05b47a4e90/spring-jcl-5.0.9.RELEASE.jar:/home/alexdemoraes/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.9.0/7c10d545325e3a6e72e06381afe469fd40eb701/jackson-annotations-2.9.0.jar:/home/alexdemoraes/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.9.6/4e393793c37c77e042ccc7be5a914ae39251b365/jackson-core-2.9.6.jar:/home/alexdemoraes/.gradle/caches/modules-2/files-2.1/net.minidev/accessors-smart/1.2/c592b500269bfde36096641b01238a8350f8aa31/accessors-smart-1.2.jar:/home/alexdemoraes/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-core/1.2.3/864344400c3d4d92dfeb0a305dc87d953677c03c/logback-core-1.2.3.jar:/home/alexdemoraes/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-api/2.10.0/fec5797a55b786184a537abd39c3fa1449d752d6/log4j-api-2.10.0.jar:/home/alexdemoraes/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm/5.0.4/da08b8cce7bbf903602a25a3a163ae252435795/asm-5.0.4.jar, user.name=alexdemoraes, java.vm.specification.version=1.8, sun.java.command=worker.org.gradle.process.internal.worker.GradleWorkerMain 'Gradle Test Executor 2', java.home=/usr/java/jdk1.8.0_121/jre, sun.arch.data.model=64, user.language=en, java.specification.vendor=Oracle Corporation, awt.toolkit=sun.awt.X11.XToolkit, java.vm.info=mixed mode, java.version=1.8.0_121, java.ext.dirs=/usr/java/jdk1.8.0_121/jre/lib/ext:/usr/java/packages/lib/ext, sun.boot.class.path=/usr/java/jdk1.8.0_121/jre/lib/resources.jar:/usr/java/jdk1.8.0_121/jre/lib/rt.jar:/usr/java/jdk1.8.0_121/jre/lib/sunrsasign.jar:/usr/java/jdk1.8.0_121/jre/lib/jsse.jar:/usr/java/jdk1.8.0_121/jre/lib/jce.jar:/usr/java/jdk1.8.0_121/jre/lib/charsets.jar:/usr/java/jdk1.8.0_121/jre/lib/jfr.jar:/usr/java/jdk1.8.0_121/jre/classes, java.vendor=Oracle Corporation, org.gradle.test.worker=2, file.separator=/, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, sun.io.unicode.encoding=UnicodeLittle, sun.cpu.endian=little, sun.desktop=gnome, sun.cpu.isalist=}}, SystemEnvironmentPropertySource@356231250 {name='systemEnvironment', properties={PATH=/home/alexdemoraes/local/bin:/home/alexdemoraes/project/iib-10.0.0.10/server/bin:/usr/java/jdk1.8.0_121/bin:/home/alexdemoraes/project/tools/apache-maven-3.5.0/bin:/home/alexdemoraes/project/tools/gradle-4.8/bin:/home/alexdemoraes/project/tools/spring-1.5.9.RELEASE/bin:/usr/lib64/qt-3.3/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin:/opt/ibm/c4eb/bin:/opt/mssql-tools/bin/:/usr/kerberos/bin, XAUTHORITY=/run/gdm/auth-for-alexdemoraes-t2ppeQ/database, IMSETTINGS_MODULE=none, HISTCONTROL=ignoredups, XMODIFIERS=@im=ibus, GDMSESSION=gnome, IIB_HOME=/home/alexdemoraes/project/iib-10.0.0.10/server, GUESTFISH_RESTORE=\e[0m, DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-Ya3Dem69PK,guid=c8c4a462456c4504cb94fa385ba385e4, XDG_CURRENT_DESKTOP=GNOME, MAVEN_HOME=/home/alexdemoraes/project/tools/apache-maven-3.5.0, MAIL=/var/spool/mail/alexdemoraes, SESSION_MANAGER=local/unix:@/tmp/.ICE-unix/3247,unix/unix:/tmp/.ICE-unix/3247, USERNAME=alexdemoraes, LOGNAME=alexdemoraes, PWD=/home/alexdemoraes/project/workspace/gs-spring-boot, GJS_DEBUG_TOPICS=JS ERROR;JS LOG, WINDOWID=16777223, LESSOPEN=||/usr/bin/lesspipe.sh %s, PD_SOCKET=6874, SHELL=/bin/bash, QT_GRAPHICSSYSTEM_CHECKED=1, QTINC=/usr/lib64/qt-3.3/include, OLDPWD=/home/alexdemoraes/project/tools/gradle-4.8, GUESTFISH_INIT=\e[1;34m, GNOME_DESKTOP_SESSION_ID=this-is-deprecated, SPRING_HOME=/home/alexdemoraes/project/tools/spring-1.5.9.RELEASE, M2_HOME=/home/alexdemoraes/project/tools/apache-maven-3.5.0, IMSETTINGS_INTEGRATE_DESKTOP=yes, XDG_SESSION_DESKTOP=gnome, LS_COLORS=rs=0:di=38;5;27:ln=38;5;51:mh=44;38;5;15:pi=40;38;5;11:so=38;5;13:do=38;5;5:bd=48;5;232;38;5;11:cd=48;5;232;38;5;3:or=48;5;232;38;5;9:mi=05;48;5;232;38;5;15:su=48;5;196;38;5;15:sg=48;5;11;38;5;16:ca=48;5;196;38;5;226:tw=48;5;10;38;5;16:ow=48;5;10;38;5;21:st=48;5;21;38;5;15:ex=38;5;34:*.tar=38;5;9:*.tgz=38;5;9:*.arc=38;5;9:*.arj=38;5;9:*.taz=38;5;9:*.lha=38;5;9:*.lz4=38;5;9:*.lzh=38;5;9:*.lzma=38;5;9:*.tlz=38;5;9:*.txz=38;5;9:*.tzo=38;5;9:*.t7z=38;5;9:*.zip=38;5;9:*.z=38;5;9:*.Z=38;5;9:*.dz=38;5;9:*.gz=38;5;9:*.lrz=38;5;9:*.lz=38;5;9:*.lzo=38;5;9:*.xz=38;5;9:*.bz2=38;5;9:*.bz=38;5;9:*.tbz=38;5;9:*.tbz2=38;5;9:*.tz=38;5;9:*.deb=38;5;9:*.rpm=38;5;9:*.jar=38;5;9:*.war=38;5;9:*.ear=38;5;9:*.sar=38;5;9:*.rar=38;5;9:*.alz=38;5;9:*.ace=38;5;9:*.zoo=38;5;9:*.cpio=38;5;9:*.7z=38;5;9:*.rz=38;5;9:*.cab=38;5;9:*.jpg=38;5;13:*.jpeg=38;5;13:*.gif=38;5;13:*.bmp=38;5;13:*.pbm=38;5;13:*.pgm=38;5;13:*.ppm=38;5;13:*.tga=38;5;13:*.xbm=38;5;13:*.xpm=38;5;13:*.tif=38;5;13:*.tiff=38;5;13:*.png=38;5;13:*.svg=38;5;13:*.svgz=38;5;13:*.mng=38;5;13:*.pcx=38;5;13:*.mov=38;5;13:*.mpg=38;5;13:*.mpeg=38;5;13:*.m2v=38;5;13:*.mkv=38;5;13:*.webm=38;5;13:*.ogm=38;5;13:*.mp4=38;5;13:*.m4v=38;5;13:*.mp4v=38;5;13:*.vob=38;5;13:*.qt=38;5;13:*.nuv=38;5;13:*.wmv=38;5;13:*.asf=38;5;13:*.rm=38;5;13:*.rmvb=38;5;13:*.flc=38;5;13:*.avi=38;5;13:*.fli=38;5;13:*.flv=38;5;13:*.gl=38;5;13:*.dl=38;5;13:*.xcf=38;5;13:*.xwd=38;5;13:*.yuv=38;5;13:*.cgm=38;5;13:*.emf=38;5;13:*.axv=38;5;13:*.anx=38;5;13:*.ogv=38;5;13:*.ogx=38;5;13:*.aac=38;5;45:*.au=38;5;45:*.flac=38;5;45:*.mid=38;5;45:*.midi=38;5;45:*.mka=38;5;45:*.mp3=38;5;45:*.mpc=38;5;45:*.ogg=38;5;45:*.ra=38;5;45:*.wav=38;5;45:*.axa=38;5;45:*.oga=38;5;45:*.spx=38;5;45:*.xspf=38;5;45:, SHLVL=2, QT_PLUGIN_PATH=/usr/lib64/kde4/plugins:/usr/lib/kde4/plugins, QT_IM_MODULE=ibus, HISTSIZE=100000, JAVA_HOME=/usr/java/jdk1.8.0_121, GNOME_DISABLE_CRASH_DIALOG=1, TERM=xterm-256color, XFILESEARCHPATH=/usr/dt/app-defaults/%L/Dt, LANG=en_US.utf8, XDG_SESSION_ID=2, GRADLE_HOME=/home/alexdemoraes/project/tools/gradle-4.8, MAVEN_OPTS=-Xmx1024m -Xms512m, DISPLAY=:0, JAVA_TOOL_OPTIONS=-Djava.net.preferIPv4Stack=true -Dfile.encoding=UTF8, MSSQL_HOME=/opt/mssql-tools/bin/, POSTMAN=/home/alexdemoraes/project/tools/Postman, GDM_LANG=en_US.utf8, GUESTFISH_PS1=\[\e[1;32m\]&gt;&lt;fs&gt;\[\e[0;31m\] , DESKTOP_SESSION=gnome, GPG_AGENT_INFO=/run/user/1000/keyring/gpg:0:1, USER=alexdemoraes, XDG_MENU_PREFIX=gnome-, WINDOWPATH=1, VTE_VERSION=3804, GJS_DEBUG_OUTPUT=stderr, XDG_SEAT=seat0, SSH_AUTH_SOCK=/run/user/1000/keyring/ssh, HOSTNAME=oc1238317417.ibm.com, QTDIR=/usr/lib64/qt-3.3, NLSPATH=/usr/dt/lib/nls/msg/%L/%N.cat, KDEDIRS=/usr, XDG_RUNTIME_DIR=/run/user/1000, XDG_VTNR=1, QTLIB=/usr/lib64/qt-3.3/lib, HOME=/home/alexdemoraes, GUESTFISH_OUTPUT=\e[0m, PDHOST=}}]
+09:53:00.844 [Test worker] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved classpath location [hello/] to resources [URL [file:/home/alexdemoraes/project/workspace/gs-spring-boot/build/classes/java/test/hello/], URL [file:/home/alexdemoraes/project/workspace/gs-spring-boot/build/classes/java/main/hello/]]
+09:53:00.848 [Test worker] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [/home/alexdemoraes/project/workspace/gs-spring-boot/build/classes/java/test/hello]
+09:53:00.850 [Test worker] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [/home/alexdemoraes/project/workspace/gs-spring-boot/build/classes/java/test/hello] for files matching pattern [/home/alexdemoraes/project/workspace/gs-spring-boot/build/classes/java/test/hello/*.class]
+09:53:00.856 [Test worker] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [/home/alexdemoraes/project/workspace/gs-spring-boot/build/classes/java/main/hello]
+09:53:00.857 [Test worker] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [/home/alexdemoraes/project/workspace/gs-spring-boot/build/classes/java/main/hello] for files matching pattern [/home/alexdemoraes/project/workspace/gs-spring-boot/build/classes/java/main/hello/*.class]
+09:53:00.863 [Test worker] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved location pattern [classpath*:hello/*.class] to resources [file [/home/alexdemoraes/project/workspace/gs-spring-boot/build/classes/java/test/hello/HelloControllerIT.class], file [/home/alexdemoraes/project/workspace/gs-spring-boot/build/classes/java/test/hello/HelloControllerTest.class], file [/home/alexdemoraes/project/workspace/gs-spring-boot/build/classes/java/main/hello/Application.class], file [/home/alexdemoraes/project/workspace/gs-spring-boot/build/classes/java/main/hello/HelloController.class]]
+09:53:01.035 [Test worker] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [/home/alexdemoraes/project/workspace/gs-spring-boot/build/classes/java/main/hello/Application.class]
+09:53:01.050 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration hello.Application for test class hello.HelloControllerIT
+09:53:01.320 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [hello.HelloControllerIT]: using defaults.
+09:53:01.321 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+09:53:01.336 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Skipping candidate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener] due to a missing dependency. Specify custom listener classes or make the default listener classes and their required dependencies available. Offending class: [org/springframework/transaction/TransactionDefinition]
+09:53:01.338 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Skipping candidate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener] due to a missing dependency. Specify custom listener classes or make the default listener classes and their required dependencies available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
+09:53:01.339 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@59a0cf82, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@6486dfa1, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@5eebbaec, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@a8de74a, org.springframework.test.context.support.DirtiesContextTestExecutionListener@558ef546, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@7275381, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@418a553, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@614ab52d, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@434c5887, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@7e4ab034]
+09:53:01.344 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [hello.HelloControllerIT]
+09:53:01.345 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [hello.HelloControllerIT]
+09:53:01.347 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [hello.HelloControllerIT]
+09:53:01.348 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [hello.HelloControllerIT]
+09:53:01.356 [Test worker] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@257ca387 testClass = HelloControllerIT, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@24285c67 testClass = HelloControllerIT, locations = '{}', classes = '{class hello.Application}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true, server.port=0}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@6ad9530a, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@a5d1f23, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@3fb9288a, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@35aff5a2], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -&gt; false]], class annotated with @DirtiesContext [false] with mode [null].
+09:53:01.358 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [hello.HelloControllerIT]
+09:53:01.359 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [hello.HelloControllerIT]
+09:53:01.369 [Test worker] DEBUG org.springframework.test.context.support.DependencyInjectionTestExecutionListener - Performing dependency injection for test context [[DefaultTestContext@257ca387 testClass = HelloControllerIT, testInstance = hello.HelloControllerIT@4403cbc, testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@24285c67 testClass = HelloControllerIT, locations = '{}', classes = '{class hello.Application}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true, server.port=0}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@6ad9530a, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@a5d1f23, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@3fb9288a, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@35aff5a2], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -&gt; false]]].
+09:53:01.403 [Test worker] DEBUG org.springframework.core.env.StandardEnvironment - Adding PropertySource 'systemProperties' with lowest search precedence
+09:53:01.404 [Test worker] DEBUG org.springframework.core.env.StandardEnvironment - Adding PropertySource 'systemEnvironment' with lowest search precedence
+09:53:01.405 [Test worker] DEBUG org.springframework.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [MapPropertySource@297387511 {name='systemProperties', properties={java.runtime.name=Java(TM) SE Runtime Environment, sun.boot.library.path=/usr/java/jdk1.8.0_121/jre/lib/amd64, java.vm.version=25.121-b13, java.vm.vendor=Oracle Corporation, java.vendor.url=http://java.oracle.com/, path.separator=:, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, file.encoding.pkg=sun.io, sun.java.launcher=SUN_STANDARD, user.country=US, sun.os.patch.level=unknown, java.vm.specification.name=Java Virtual Machine Specification, user.dir=/home/alexdemoraes/project/workspace/gs-spring-boot, java.runtime.version=1.8.0_121-b13, java.awt.graphicsenv=sun.awt.X11GraphicsEnvironment, java.endorsed.dirs=/usr/java/jdk1.8.0_121/jre/lib/endorsed, os.arch=amd64, java.io.tmpdir=/tmp, line.separator=
+, java.vm.specification.vendor=Oracle Corporation, user.variant=, os.name=Linux, sun.jnu.encoding=UTF-8, java.library.path=/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib, java.specification.name=Java Platform API Specification, java.class.version=52.0, org.gradle.native=false, java.net.preferIPv4Stack=true, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, os.version=3.10.0-693.2.2.el7.x86_64, user.home=/home/alexdemoraes, user.timezone=America/Sao_Paulo, java.awt.printerjob=sun.print.PSPrinterJob, file.encoding=UTF-8, java.specification.version=1.8, java.class.path=/home/alexdemoraes/project/workspace/gs-spring-boot/build/classes/java/test:/home/alexdemoraes/project/workspace/gs-spring-boot/build/resources/test:/home/alexdemoraes/project/workspace/gs-spring-boot/build/classes/java/main:/home/alexdemoraes/project/workspace/gs-spring-boot/build/resources/main:/home/alexdemoraes/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-web/2.0.5.RELEASE/52daa1f1509bd637a737206e54c06a17aabb9504/spring-boot-starter-web-2.0.5.RELEASE.jar:/home/alexdemoraes/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-actuator/2.0.5.RELEASE/d5153c71f55aa39593fb6295790aad7cd81ef296/spring-boot-starter-actuator-2.0.5.RELEASE.jar:/home/alexdemoraes/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-test/2.0.5.RELEASE/ab04ca2e76f6a8e786001352a81a10e4b0e7fbc8/spring-boot-starter-test-2.0.5.RELEASE.jar:/home/alexdemoraes/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/2973d150c0dc1fefe998f834810d68f278ea58ec/junit-4.12.jar:/home/alexdemoraes/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-json/2.0.5.RELEASE/d0052ded4733ceb1fb7d927238f22f9a92099227/spring-boot-starter-json-2.0.5.RELEASE.jar:/home/alexdemoraes/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter/2.0.5.RELEASE/1f53487a373be18d064a5815e9bac9882ef15cdc/spring-boot-starter-2.0.5.RELEASE.jar:/home/alexdemoraes/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-tomcat/2.0.5.RELEASE/eaac8a5d73b45400bc88cd7f6b5c99b5f0d5e9b7/spring-boot-starter-tomcat-2.0.5.RELEASE.jar:/home/alexdemoraes/.gradle/caches/modules-2/files-2.1/org.hibernate.validator/hibernate-validator/6.0.12.Final/478003e61b056c1f97840ba3e62ff31cdc89597/hibernate-validator-6.0.12.Final.jar:/home/alexdemoraes/.gradle/caches/modules-2/files-2.1/org.springframework/spring-webmvc/5.0.9.RELEASE/c18346caaeb8dc648c4cc01874996fd9fef76664/spring-webmvc-5.0.9.RELEASE.jar:/home/alexdemoraes/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/5.0.9.RELEASE/1ea3aab93340849313fa74ec626ddaf1fff9ed8e/spring-web-5.0.9.RELEASE.jar:/home/alexdemoraes/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-actuator-autoconfigure/2.0.5.RELEASE/b29cda343b80e9294646070a5e0d353c3f9f01d1/spring-boot-actuator-autoconfigure-2.0.5.RELEASE.jar:/home/alexdemoraes/.gradle/caches/modules-2/files-2.1/io.micrometer/micrometer-core/1.0.6/50299bc8a34c251d62311bbb1a297f3942a82e42/micrometer-core-1.0.6.jar:/home/alexdemoraes/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-library/1.3/4785a3c21320980282f9f33d0d1264a69040538f/hamcrest-library-1.3.jar:/home/alexdemoraes/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/1.3/42a25dc3219429f0e5d060061f71acb49bf010a0/hamcrest-core-1.3.jar:/home/alexdemoraes/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-test-autoconfigure/2.0.5.RELEASE/54d5e8f9e88c6236fe164474f0aed5a8a1052c43/spring-boot-test-autoconfigure-2.0.5.RELEASE.jar:/home/alexdemoraes/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-test/2.0.5.RELEASE/ce6353f33217982357a6bdba6576015ea333304c/spring-boot-test-2.0.5.RELEASE.jar:/home/alexdemoraes/.gradle/caches/modules-2/files-2.1/com.jayway.jsonpath/json-path/2.4.0/765a4401ceb2dc8d40553c2075eb80a8fa35c2ae/json-path-2.4.0.jar:/home/alexdemoraes/.gradle/caches/modules-2/files-2.1/org.assertj/assertj-core/3.9.1/c5ce126b15f28d56cd8f960c1a6a058b9c9aea87/assertj-core-3.9.1.jar:/home/alexdemoraes/.gradle/caches/modules-2/files-2.1/org.mockito/mockito-core/2.15.0/b84bfbbc29cd22c9529409627af6ea2897f4fa85/mockito-core-2.15.0.jar:/home/alexdemoraes/.gradle/caches/modules-2/files-2.1/org.skyscreamer/jsonassert/1.5.0/6c9d5fe2f59da598d9aefc1cfc6528ff3cf32df3/jsonassert-1.5.0.jar:/home/alexdemoraes/.gradle/caches/modules-2/files-2.1/org.springframework/spring-test/5.0.9.RELEASE/218c8648f898453be92d550252e0ce2a84b54375/spring-test-5.0.9.RELEASE.jar:/home/alexdemoraes/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-autoconfigure/2.0.5.RELEASE/e5588642799e0c0c04638e255c3d3f31ba400ff4/spring-boot-autoconfigure-2.0.5.RELEASE.jar:/home/alexdemoraes/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-actuator/2.0.5.RELEASE/7daa40cc91678aee37009b595c4cee4b05de3d68/spring-boot-actuator-2.0.5.RELEASE.jar:/home/alexdemoraes/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot/2.0.5.RELEASE/19a4624cbd89a318d10c79f289c6c816043850fb/spring-boot-2.0.5.RELEASE.jar:/home/alexdemoraes/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/5.0.9.RELEASE/2501e55acb6c2e84667cda3f845d1d00a0dc4e05/spring-context-5.0.9.RELEASE.jar:/home/alexdemoraes/.gradle/caches/modules-2/files-2.1/org.springframework/spring-expression/5.0.9.RELEASE/1f9db5ff3a758102c0434cc3457aa47c50c39a4a/spring-expression-5.0.9.RELEASE.jar:/home/alexdemoraes/.gradle/caches/modules-2/files-2.1/org.springframework/spring-aop/5.0.9.RELEASE/98003b099697fe46b6bdf18c7e3f66d7a1381060/spring-aop-5.0.9.RELEASE.jar:/home/alexdemoraes/.gradle/caches/modules-2/files-2.1/org.springframework/spring-beans/5.0.9.RELEASE/65f56fdab1bb90ad059e314d2f2f4cf76f9bdbde/spring-beans-5.0.9.RELEASE.jar:/home/alexdemoraes/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/5.0.9.RELEASE/9f9a828936d81afd49a603bda9cc1aed863a0d85/spring-core-5.0.9.RELEASE.jar:/home/alexdemoraes/.gradle/caches/modules-2/files-2.1/org.xmlunit/xmlunit-core/2.5.1/4ffdb346572a7356f7521cd3119ce5287d2e339d/xmlunit-core-2.5.1.jar:/home/alexdemoraes/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-logging/2.0.5.RELEASE/c353e0b9591d0765c687ff0a678478cbebfd5c23/spring-boot-starter-logging-2.0.5.RELEASE.jar:/home/alexdemoraes/.gradle/caches/modules-2/files-2.1/javax.annotation/javax.annotation-api/1.3.2/934c04d3cfef185a8008e7bf34331b79730a9d43/javax.annotation-api-1.3.2.jar:/home/alexdemoraes/.gradle/caches/modules-2/files-2.1/org.yaml/snakeyaml/1.19/2d998d3d674b172a588e54ab619854d073f555b5/snakeyaml-1.19.jar:/home/alexdemoraes/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.datatype/jackson-datatype-jdk8/2.9.6/456895fc91bf7180b216fead220373e6278230c9/jackson-datatype-jdk8-2.9.6.jar:/home/alexdemoraes/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.datatype/jackson-datatype-jsr310/2.9.6/ea54f6193d224e5e5732bbd4262327eb465397c2/jackson-datatype-jsr310-2.9.6.jar:/home/alexdemoraes/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.module/jackson-module-parameter-names/2.9.6/129acd77a4b6ee30d62d3a0899b1344c8ec2bff8/jackson-module-parameter-names-2.9.6.jar:/home/alexdemoraes/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.9.6/cfa4f316351a91bfd95cb0644c6a2c95f52db1fc/jackson-databind-2.9.6.jar:/home/alexdemoraes/.gradle/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-websocket/8.5.34/5f86906367c2540b21e6aeecc277d2ce9ec939b0/tomcat-embed-websocket-8.5.34.jar:/home/alexdemoraes/.gradle/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-core/8.5.34/a038040d68a90397f95dd1e11b979fe364a5000f/tomcat-embed-core-8.5.34.jar:/home/alexdemoraes/.gradle/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-el/8.5.34/be71a9a5bdd001db7cf97c47429eec0bdd3b7b88/tomcat-embed-el-8.5.34.jar:/home/alexdemoraes/.gradle/caches/modules-2/files-2.1/javax.validation/validation-api/2.0.1.Final/cb855558e6271b1b32e716d24cb85c7f583ce09e/validation-api-2.0.1.Final.jar:/home/alexdemoraes/.gradle/caches/modules-2/files-2.1/org.jboss.logging/jboss-logging/3.3.2.Final/3789d00e859632e6c6206adc0c71625559e6e3b0/jboss-logging-3.3.2.Final.jar:/home/alexdemoraes/.gradle/caches/modules-2/files-2.1/com.fasterxml/classmate/1.3.4/3d5f48f10bbe4eb7bd862f10c0583be2e0053c6/classmate-1.3.4.jar:/home/alexdemoraes/.gradle/caches/modules-2/files-2.1/org.hdrhistogram/HdrHistogram/2.1.10/9e1ac84eed220281841b75e72fb9de5a297fbf04/HdrHistogram-2.1.10.jar:/home/alexdemoraes/.gradle/caches/modules-2/files-2.1/org.latencyutils/LatencyUtils/2.0.3/769c0b82cb2421c8256300e907298a9410a2a3d3/LatencyUtils-2.0.3.jar:/home/alexdemoraes/.gradle/caches/modules-2/files-2.1/net.minidev/json-smart/2.3/7396407491352ce4fa30de92efb158adb76b5b/json-smart-2.3.jar:/home/alexdemoraes/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-classic/1.2.3/7c4f3c474fb2c041d8028740440937705ebb473a/logback-classic-1.2.3.jar:/home/alexdemoraes/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-to-slf4j/2.10.0/f7e631ccf49cfc0aefa4a2a728da7d374c05bd3c/log4j-to-slf4j-2.10.0.jar:/home/alexdemoraes/.gradle/caches/modules-2/files-2.1/org.slf4j/jul-to-slf4j/1.7.25/af5364cd6679bfffb114f0dec8a157aaa283b76/jul-to-slf4j-1.7.25.jar:/home/alexdemoraes/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.25/da76ca59f6a57ee3102f8f9bd9cee742973efa8a/slf4j-api-1.7.25.jar:/home/alexdemoraes/.gradle/caches/modules-2/files-2.1/net.bytebuddy/byte-buddy/1.7.11/f02857a4e2c66ccbe7aaad6100a0a6c461bce9b3/byte-buddy-1.7.11.jar:/home/alexdemoraes/.gradle/caches/modules-2/files-2.1/net.bytebuddy/byte-buddy-agent/1.7.11/b425a8933ca07edd03c6dbc8bc3b595fba9780de/byte-buddy-agent-1.7.11.jar:/home/alexdemoraes/.gradle/caches/modules-2/files-2.1/org.objenesis/objenesis/2.6/639033469776fd37c08358c6b92a4761feb2af4b/objenesis-2.6.jar:/home/alexdemoraes/.gradle/caches/modules-2/files-2.1/com.vaadin.external.google/android-json/0.0.20131108.vaadin1/fa26d351fe62a6a17f5cda1287c1c6110dec413f/android-json-0.0.20131108.vaadin1.jar:/home/alexdemoraes/.gradle/caches/modules-2/files-2.1/org.springframework/spring-jcl/5.0.9.RELEASE/bc3b5aaae53f0bc03647e53ecbd98a05b47a4e90/spring-jcl-5.0.9.RELEASE.jar:/home/alexdemoraes/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.9.0/7c10d545325e3a6e72e06381afe469fd40eb701/jackson-annotations-2.9.0.jar:/home/alexdemoraes/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.9.6/4e393793c37c77e042ccc7be5a914ae39251b365/jackson-core-2.9.6.jar:/home/alexdemoraes/.gradle/caches/modules-2/files-2.1/net.minidev/accessors-smart/1.2/c592b500269bfde36096641b01238a8350f8aa31/accessors-smart-1.2.jar:/home/alexdemoraes/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-core/1.2.3/864344400c3d4d92dfeb0a305dc87d953677c03c/logback-core-1.2.3.jar:/home/alexdemoraes/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-api/2.10.0/fec5797a55b786184a537abd39c3fa1449d752d6/log4j-api-2.10.0.jar:/home/alexdemoraes/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm/5.0.4/da08b8cce7bbf903602a25a3a163ae252435795/asm-5.0.4.jar, user.name=alexdemoraes, java.vm.specification.version=1.8, sun.java.command=worker.org.gradle.process.internal.worker.GradleWorkerMain 'Gradle Test Executor 2', java.home=/usr/java/jdk1.8.0_121/jre, sun.arch.data.model=64, user.language=en, java.specification.vendor=Oracle Corporation, awt.toolkit=sun.awt.X11.XToolkit, java.vm.info=mixed mode, java.version=1.8.0_121, java.ext.dirs=/usr/java/jdk1.8.0_121/jre/lib/ext:/usr/java/packages/lib/ext, sun.boot.class.path=/usr/java/jdk1.8.0_121/jre/lib/resources.jar:/usr/java/jdk1.8.0_121/jre/lib/rt.jar:/usr/java/jdk1.8.0_121/jre/lib/sunrsasign.jar:/usr/java/jdk1.8.0_121/jre/lib/jsse.jar:/usr/java/jdk1.8.0_121/jre/lib/jce.jar:/usr/java/jdk1.8.0_121/jre/lib/charsets.jar:/usr/java/jdk1.8.0_121/jre/lib/jfr.jar:/usr/java/jdk1.8.0_121/jre/classes, java.vendor=Oracle Corporation, org.gradle.test.worker=2, file.separator=/, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, sun.io.unicode.encoding=UnicodeLittle, sun.cpu.endian=little, sun.desktop=gnome, sun.cpu.isalist=}}, SystemEnvironmentPropertySource@1806474325 {name='systemEnvironment', properties={PATH=/home/alexdemoraes/local/bin:/home/alexdemoraes/project/iib-10.0.0.10/server/bin:/usr/java/jdk1.8.0_121/bin:/home/alexdemoraes/project/tools/apache-maven-3.5.0/bin:/home/alexdemoraes/project/tools/gradle-4.8/bin:/home/alexdemoraes/project/tools/spring-1.5.9.RELEASE/bin:/usr/lib64/qt-3.3/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin:/opt/ibm/c4eb/bin:/opt/mssql-tools/bin/:/usr/kerberos/bin, XAUTHORITY=/run/gdm/auth-for-alexdemoraes-t2ppeQ/database, IMSETTINGS_MODULE=none, HISTCONTROL=ignoredups, XMODIFIERS=@im=ibus, GDMSESSION=gnome, IIB_HOME=/home/alexdemoraes/project/iib-10.0.0.10/server, GUESTFISH_RESTORE=\e[0m, DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-Ya3Dem69PK,guid=c8c4a462456c4504cb94fa385ba385e4, XDG_CURRENT_DESKTOP=GNOME, MAVEN_HOME=/home/alexdemoraes/project/tools/apache-maven-3.5.0, MAIL=/var/spool/mail/alexdemoraes, SESSION_MANAGER=local/unix:@/tmp/.ICE-unix/3247,unix/unix:/tmp/.ICE-unix/3247, USERNAME=alexdemoraes, LOGNAME=alexdemoraes, PWD=/home/alexdemoraes/project/workspace/gs-spring-boot, GJS_DEBUG_TOPICS=JS ERROR;JS LOG, WINDOWID=16777223, LESSOPEN=||/usr/bin/lesspipe.sh %s, PD_SOCKET=6874, SHELL=/bin/bash, QT_GRAPHICSSYSTEM_CHECKED=1, QTINC=/usr/lib64/qt-3.3/include, OLDPWD=/home/alexdemoraes/project/tools/gradle-4.8, GUESTFISH_INIT=\e[1;34m, GNOME_DESKTOP_SESSION_ID=this-is-deprecated, SPRING_HOME=/home/alexdemoraes/project/tools/spring-1.5.9.RELEASE, M2_HOME=/home/alexdemoraes/project/tools/apache-maven-3.5.0, IMSETTINGS_INTEGRATE_DESKTOP=yes, XDG_SESSION_DESKTOP=gnome, LS_COLORS=rs=0:di=38;5;27:ln=38;5;51:mh=44;38;5;15:pi=40;38;5;11:so=38;5;13:do=38;5;5:bd=48;5;232;38;5;11:cd=48;5;232;38;5;3:or=48;5;232;38;5;9:mi=05;48;5;232;38;5;15:su=48;5;196;38;5;15:sg=48;5;11;38;5;16:ca=48;5;196;38;5;226:tw=48;5;10;38;5;16:ow=48;5;10;38;5;21:st=48;5;21;38;5;15:ex=38;5;34:*.tar=38;5;9:*.tgz=38;5;9:*.arc=38;5;9:*.arj=38;5;9:*.taz=38;5;9:*.lha=38;5;9:*.lz4=38;5;9:*.lzh=38;5;9:*.lzma=38;5;9:*.tlz=38;5;9:*.txz=38;5;9:*.tzo=38;5;9:*.t7z=38;5;9:*.zip=38;5;9:*.z=38;5;9:*.Z=38;5;9:*.dz=38;5;9:*.gz=38;5;9:*.lrz=38;5;9:*.lz=38;5;9:*.lzo=38;5;9:*.xz=38;5;9:*.bz2=38;5;9:*.bz=38;5;9:*.tbz=38;5;9:*.tbz2=38;5;9:*.tz=38;5;9:*.deb=38;5;9:*.rpm=38;5;9:*.jar=38;5;9:*.war=38;5;9:*.ear=38;5;9:*.sar=38;5;9:*.rar=38;5;9:*.alz=38;5;9:*.ace=38;5;9:*.zoo=38;5;9:*.cpio=38;5;9:*.7z=38;5;9:*.rz=38;5;9:*.cab=38;5;9:*.jpg=38;5;13:*.jpeg=38;5;13:*.gif=38;5;13:*.bmp=38;5;13:*.pbm=38;5;13:*.pgm=38;5;13:*.ppm=38;5;13:*.tga=38;5;13:*.xbm=38;5;13:*.xpm=38;5;13:*.tif=38;5;13:*.tiff=38;5;13:*.png=38;5;13:*.svg=38;5;13:*.svgz=38;5;13:*.mng=38;5;13:*.pcx=38;5;13:*.mov=38;5;13:*.mpg=38;5;13:*.mpeg=38;5;13:*.m2v=38;5;13:*.mkv=38;5;13:*.webm=38;5;13:*.ogm=38;5;13:*.mp4=38;5;13:*.m4v=38;5;13:*.mp4v=38;5;13:*.vob=38;5;13:*.qt=38;5;13:*.nuv=38;5;13:*.wmv=38;5;13:*.asf=38;5;13:*.rm=38;5;13:*.rmvb=38;5;13:*.flc=38;5;13:*.avi=38;5;13:*.fli=38;5;13:*.flv=38;5;13:*.gl=38;5;13:*.dl=38;5;13:*.xcf=38;5;13:*.xwd=38;5;13:*.yuv=38;5;13:*.cgm=38;5;13:*.emf=38;5;13:*.axv=38;5;13:*.anx=38;5;13:*.ogv=38;5;13:*.ogx=38;5;13:*.aac=38;5;45:*.au=38;5;45:*.flac=38;5;45:*.mid=38;5;45:*.midi=38;5;45:*.mka=38;5;45:*.mp3=38;5;45:*.mpc=38;5;45:*.ogg=38;5;45:*.ra=38;5;45:*.wav=38;5;45:*.axa=38;5;45:*.oga=38;5;45:*.spx=38;5;45:*.xspf=38;5;45:, SHLVL=2, QT_PLUGIN_PATH=/usr/lib64/kde4/plugins:/usr/lib/kde4/plugins, QT_IM_MODULE=ibus, HISTSIZE=100000, JAVA_HOME=/usr/java/jdk1.8.0_121, GNOME_DISABLE_CRASH_DIALOG=1, TERM=xterm-256color, XFILESEARCHPATH=/usr/dt/app-defaults/%L/Dt, LANG=en_US.utf8, XDG_SESSION_ID=2, GRADLE_HOME=/home/alexdemoraes/project/tools/gradle-4.8, MAVEN_OPTS=-Xmx1024m -Xms512m, DISPLAY=:0, JAVA_TOOL_OPTIONS=-Djava.net.preferIPv4Stack=true -Dfile.encoding=UTF8, MSSQL_HOME=/opt/mssql-tools/bin/, POSTMAN=/home/alexdemoraes/project/tools/Postman, GDM_LANG=en_US.utf8, GUESTFISH_PS1=\[\e[1;32m\]&gt;&lt;fs&gt;\[\e[0;31m\] , DESKTOP_SESSION=gnome, GPG_AGENT_INFO=/run/user/1000/keyring/gpg:0:1, USER=alexdemoraes, XDG_MENU_PREFIX=gnome-, WINDOWPATH=1, VTE_VERSION=3804, GJS_DEBUG_OUTPUT=stderr, XDG_SEAT=seat0, SSH_AUTH_SOCK=/run/user/1000/keyring/ssh, HOSTNAME=oc1238317417.ibm.com, QTDIR=/usr/lib64/qt-3.3, NLSPATH=/usr/dt/lib/nls/msg/%L/%N.cat, KDEDIRS=/usr, XDG_RUNTIME_DIR=/run/user/1000, XDG_VTNR=1, QTLIB=/usr/lib64/qt-3.3/lib, HOME=/home/alexdemoraes, GUESTFISH_OUTPUT=\e[0m, PDHOST=}}]
+09:53:01.436 [Test worker] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true, server.port=0}
+09:53:01.437 [Test worker] DEBUG org.springframework.core.env.StandardEnvironment - Adding PropertySource 'Inlined Test Properties' with highest search precedence
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.0.5.RELEASE)
+
+2018-09-30 09:53:02.154  INFO 15110 --- [    Test worker] hello.HelloControllerIT                  : Starting HelloControllerIT on localhost.localdomain with PID 15110 (started by alexdemoraes in /home/alexdemoraes/project/workspace/gs-spring-boot)
+2018-09-30 09:53:02.156  INFO 15110 --- [    Test worker] hello.HelloControllerIT                  : No active profile set, falling back to default profiles: default
+2018-09-30 09:53:02.197  INFO 15110 --- [    Test worker] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4bb0680a: startup date [Sun Sep 30 09:53:02 BRT 2018]; root of context hierarchy
+2018-09-30 09:53:06.596  INFO 15110 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2018-09-30 09:53:06.656  INFO 15110 --- [    Test worker] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-09-30 09:53:06.657  INFO 15110 --- [    Test worker] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.34
+2018-09-30 09:53:06.677  INFO 15110 --- [ost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+2018-09-30 09:53:07.308  INFO 15110 --- [ost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-09-30 09:53:07.309  INFO 15110 --- [ost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 5117 ms
+2018-09-30 09:53:08.628  INFO 15110 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-09-30 09:53:08.631  INFO 15110 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'webMvcMetricsFilter' to: [/*]
+2018-09-30 09:53:08.632  INFO 15110 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-09-30 09:53:08.651  INFO 15110 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-09-30 09:53:08.652  INFO 15110 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-09-30 09:53:08.653  INFO 15110 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpTraceFilter' to: [/*]
+2018-09-30 09:53:08.655  INFO 15110 --- [ost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2018-09-30 09:53:09.055  INFO 15110 --- [    Test worker] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-30 09:53:09.648  INFO 15110 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4bb0680a: startup date [Sun Sep 30 09:53:02 BRT 2018]; root of context hierarchy
+2018-09-30 09:53:09.847  INFO 15110 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/]}&quot; onto public java.lang.String hello.HelloController.index()
+2018-09-30 09:53:09.858  INFO 15110 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/error],produces=[text/html]}&quot; onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-09-30 09:53:09.858  INFO 15110 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/error]}&quot; onto public org.springframework.http.ResponseEntity&lt;java.util.Map&lt;java.lang.String, java.lang.Object&gt;&gt; org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-09-30 09:53:09.944  INFO 15110 --- [    Test worker] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-30 09:53:09.944  INFO 15110 --- [    Test worker] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-30 09:53:10.520  INFO 15110 --- [    Test worker] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2018-09-30 09:53:10.549  INFO 15110 --- [    Test worker] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped &quot;{[/actuator/health],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}&quot; onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map&lt;java.lang.String, java.lang.String&gt;)
+2018-09-30 09:53:10.551  INFO 15110 --- [    Test worker] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped &quot;{[/actuator/info],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}&quot; onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map&lt;java.lang.String, java.lang.String&gt;)
+2018-09-30 09:53:10.553  INFO 15110 --- [    Test worker] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped &quot;{[/actuator],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}&quot; onto protected java.util.Map&lt;java.lang.String, java.util.Map&lt;java.lang.String, org.springframework.boot.actuate.endpoint.web.Link&gt;&gt; org.springframework.boot.actuate.endpoint.web.servlet.WebMvcEndpointHandlerMapping.links(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-09-30 09:53:10.820  INFO 15110 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 39701 (http) with context path ''
+2018-09-30 09:53:10.829  INFO 15110 --- [    Test worker] hello.HelloControllerIT                  : Started HelloControllerIT in 9.388 seconds (JVM running for 11.837)
+Let's inspect the beans provided by Spring Boot:
+application
+auditEventRepository
+auditEventsEndpoint
+auditListener
+basicErrorController
+beanNameHandlerMapping
+beanNameViewResolver
+beansEndpoint
+characterEncodingFilter
+classLoaderMetrics
+commandLineRunner
+conditionsReportEndpoint
+configurationPropertiesReportEndpoint
+contextCapturingServletTomcatCustomizer
+controllerEndpointDiscoverer
+controllerEndpointHandlerMapping
+controllerExposeExcludePropertyEndpointFilter
+conventionErrorViewResolver
+createHealthStatusHttpMapper
+defaultServletHandlerMapping
+defaultValidator
+defaultViewResolver
+diskSpaceHealthIndicator
+diskSpaceHealthIndicatorProperties
+dispatcherServlet
+dispatcherServletMappingDescriptionProvider
+dispatcherServletRegistration
+dumpEndpoint
+endpointCachingOperationInvokerAdvisor
+endpointMediaTypes
+endpointOperationParameterMapper
+envInfoContributor
+environmentEndpoint
+environmentEndpointWebExtension
+error
+errorAttributes
+errorPageCustomizer
+errorPageRegistrarBeanPostProcessor
+faviconHandlerMapping
+faviconRequestHandler
+fileDescriptorMetrics
+filterMappingDescriptionProvider
+handlerExceptionResolver
+healthAggregator
+healthEndpoint
+healthEndpointWebExtension
+healthWebEndpointResponseMapper
+heapDumpWebEndpoint
+helloController
+hiddenHttpMethodFilter
+httpExchangeTracer
+httpPutFormContentFilter
+httpRequestHandlerAdapter
+httpTraceEndpoint
+httpTraceFilter
+infoEndpoint
+jacksonCodecCustomizer
+jacksonObjectMapper
+jacksonObjectMapperBuilder
+jmxAnnotationEndpointDiscoverer
+jmxIncludeExcludePropertyEndpointFilter
+jsonComponentModule
+jvmGcMetrics
+jvmMemoryMetrics
+jvmThreadMetrics
+localeCharsetMappingsCustomizer
+logbackMetrics
+loggersEndpoint
+management.endpoint.configprops-org.springframework.boot.actuate.autoconfigure.context.properties.ConfigurationPropertiesReportEndpointProperties
+management.endpoint.env-org.springframework.boot.actuate.autoconfigure.env.EnvironmentEndpointProperties
+management.endpoint.health-org.springframework.boot.actuate.autoconfigure.health.HealthEndpointProperties
+management.endpoint.logfile-org.springframework.boot.actuate.autoconfigure.logging.LogFileWebEndpointProperties
+management.endpoints.jmx-org.springframework.boot.actuate.autoconfigure.endpoint.jmx.JmxEndpointProperties
+management.endpoints.web-org.springframework.boot.actuate.autoconfigure.endpoint.web.WebEndpointProperties
+management.endpoints.web.cors-org.springframework.boot.actuate.autoconfigure.endpoint.web.CorsEndpointProperties
+management.health.status-org.springframework.boot.actuate.autoconfigure.health.HealthIndicatorProperties
+management.info-org.springframework.boot.actuate.autoconfigure.info.InfoContributorProperties
+management.metrics-org.springframework.boot.actuate.autoconfigure.metrics.MetricsProperties
+management.metrics.export.simple-org.springframework.boot.actuate.autoconfigure.metrics.export.simple.SimpleProperties
+management.server-org.springframework.boot.actuate.autoconfigure.web.server.ManagementServerProperties
+management.trace.http-org.springframework.boot.actuate.autoconfigure.trace.http.HttpTraceProperties
+managementServletContext
+mappingJackson2HttpMessageConverter
+mappingsEndpoint
+messageConverters
+meterRegistryPostProcessor
+methodValidationPostProcessor
+metricsEndpoint
+metricsHttpServerUriTagFilter
+metricsRestTemplateCustomizer
+metricsWebClientUriTagFilter
+micrometerClock
+multipartConfigElement
+multipartResolver
+mvcContentNegotiationManager
+mvcConversionService
+mvcHandlerMappingIntrospector
+mvcPathMatcher
+mvcResourceUrlProvider
+mvcUriComponentsContributor
+mvcUrlPathHelper
+mvcValidator
+mvcViewResolver
+org.springframework.boot.actuate.autoconfigure.audit.AuditAutoConfiguration
+org.springframework.boot.actuate.autoconfigure.audit.AuditAutoConfiguration$AuditEventRepositoryConfiguration
+org.springframework.boot.actuate.autoconfigure.audit.AuditEventsEndpointAutoConfiguration
+org.springframework.boot.actuate.autoconfigure.beans.BeansEndpointAutoConfiguration
+org.springframework.boot.actuate.autoconfigure.condition.ConditionsReportEndpointAutoConfiguration
+org.springframework.boot.actuate.autoconfigure.context.ShutdownEndpointAutoConfiguration
+org.springframework.boot.actuate.autoconfigure.context.properties.ConfigurationPropertiesReportEndpointAutoConfiguration
+org.springframework.boot.actuate.autoconfigure.elasticsearch.ElasticsearchHealthIndicatorAutoConfiguration
+org.springframework.boot.actuate.autoconfigure.endpoint.EndpointAutoConfiguration
+org.springframework.boot.actuate.autoconfigure.endpoint.jmx.JmxEndpointAutoConfiguration
+org.springframework.boot.actuate.autoconfigure.endpoint.web.ServletEndpointManagementContextConfiguration
+org.springframework.boot.actuate.autoconfigure.endpoint.web.ServletEndpointManagementContextConfiguration$WebMvcServletEndpointManagementContextConfiguration
+org.springframework.boot.actuate.autoconfigure.endpoint.web.WebEndpointAutoConfiguration
+org.springframework.boot.actuate.autoconfigure.endpoint.web.WebEndpointAutoConfiguration$WebEndpointServletConfiguration
+org.springframework.boot.actuate.autoconfigure.endpoint.web.servlet.WebMvcEndpointManagementContextConfiguration
+org.springframework.boot.actuate.autoconfigure.env.EnvironmentEndpointAutoConfiguration
+org.springframework.boot.actuate.autoconfigure.health.HealthEndpointAutoConfiguration
+org.springframework.boot.actuate.autoconfigure.health.HealthEndpointConfiguration
+org.springframework.boot.actuate.autoconfigure.health.HealthEndpointWebExtensionConfiguration
+org.springframework.boot.actuate.autoconfigure.health.HealthEndpointWebExtensionConfiguration$ServletWebHealthConfiguration
+org.springframework.boot.actuate.autoconfigure.health.HealthIndicatorAutoConfiguration
+org.springframework.boot.actuate.autoconfigure.info.InfoContributorAutoConfiguration
+org.springframework.boot.actuate.autoconfigure.info.InfoEndpointAutoConfiguration
+org.springframework.boot.actuate.autoconfigure.logging.LogFileWebEndpointAutoConfiguration
+org.springframework.boot.actuate.autoconfigure.logging.LoggersEndpointAutoConfiguration
+org.springframework.boot.actuate.autoconfigure.management.HeapDumpWebEndpointAutoConfiguration
+org.springframework.boot.actuate.autoconfigure.management.ThreadDumpEndpointAutoConfiguration
+org.springframework.boot.actuate.autoconfigure.metrics.CompositeMeterRegistryAutoConfiguration
+org.springframework.boot.actuate.autoconfigure.metrics.MetricsAutoConfiguration
+org.springframework.boot.actuate.autoconfigure.metrics.MetricsAutoConfiguration$JvmMeterBindersConfiguration
+org.springframework.boot.actuate.autoconfigure.metrics.MetricsAutoConfiguration$MeterBindersConfiguration
+org.springframework.boot.actuate.autoconfigure.metrics.MetricsEndpointAutoConfiguration
+org.springframework.boot.actuate.autoconfigure.metrics.export.simple.SimpleMetricsExportAutoConfiguration
+org.springframework.boot.actuate.autoconfigure.metrics.web.client.RestTemplateMetricsAutoConfiguration
+org.springframework.boot.actuate.autoconfigure.metrics.web.servlet.WebMvcMetricsAutoConfiguration
+org.springframework.boot.actuate.autoconfigure.metrics.web.tomcat.TomcatMetricsAutoConfiguration
+org.springframework.boot.actuate.autoconfigure.mongo.MongoHealthIndicatorAutoConfiguration
+org.springframework.boot.actuate.autoconfigure.redis.RedisHealthIndicatorAutoConfiguration
+org.springframework.boot.actuate.autoconfigure.scheduling.ScheduledTasksEndpointAutoConfiguration
+org.springframework.boot.actuate.autoconfigure.system.DiskSpaceHealthIndicatorAutoConfiguration
+org.springframework.boot.actuate.autoconfigure.trace.http.HttpTraceAutoConfiguration
+org.springframework.boot.actuate.autoconfigure.trace.http.HttpTraceAutoConfiguration$ServletTraceFilterConfiguration
+org.springframework.boot.actuate.autoconfigure.trace.http.HttpTraceEndpointAutoConfiguration
+org.springframework.boot.actuate.autoconfigure.web.mappings.MappingsEndpointAutoConfiguration
+org.springframework.boot.actuate.autoconfigure.web.mappings.MappingsEndpointAutoConfiguration$ServletWebConfiguration
+org.springframework.boot.actuate.autoconfigure.web.mappings.MappingsEndpointAutoConfiguration$ServletWebConfiguration$SpringMvcConfiguration
+org.springframework.boot.actuate.autoconfigure.web.server.ManagementContextAutoConfiguration
+org.springframework.boot.actuate.autoconfigure.web.server.ManagementContextAutoConfiguration$SameManagementContextConfiguration
+org.springframework.boot.actuate.autoconfigure.web.server.ManagementContextAutoConfiguration$SameManagementContextConfiguration$EnableSameManagementContextConfiguration
+org.springframework.boot.actuate.autoconfigure.web.servlet.ServletManagementContextAutoConfiguration
+org.springframework.boot.autoconfigure.AutoConfigurationPackages
+org.springframework.boot.autoconfigure.condition.BeanTypeRegistry
+org.springframework.boot.autoconfigure.context.ConfigurationPropertiesAutoConfiguration
+org.springframework.boot.autoconfigure.context.PropertyPlaceholderAutoConfiguration
+org.springframework.boot.autoconfigure.http.HttpMessageConvertersAutoConfiguration
+org.springframework.boot.autoconfigure.http.HttpMessageConvertersAutoConfiguration$StringHttpMessageConverterConfiguration
+org.springframework.boot.autoconfigure.http.JacksonHttpMessageConvertersConfiguration
+org.springframework.boot.autoconfigure.http.JacksonHttpMessageConvertersConfiguration$MappingJackson2HttpMessageConverterConfiguration
+org.springframework.boot.autoconfigure.http.codec.CodecsAutoConfiguration
+org.springframework.boot.autoconfigure.http.codec.CodecsAutoConfiguration$JacksonCodecConfiguration
+org.springframework.boot.autoconfigure.info.ProjectInfoAutoConfiguration
+org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory
+org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration
+org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$Jackson2ObjectMapperBuilderCustomizerConfiguration
+org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperBuilderConfiguration
+org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperConfiguration
+org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$ParameterNamesModuleConfiguration
+org.springframework.boot.autoconfigure.validation.ValidationAutoConfiguration
+org.springframework.boot.autoconfigure.web.client.RestTemplateAutoConfiguration
+org.springframework.boot.autoconfigure.web.embedded.EmbeddedWebServerFactoryCustomizerAutoConfiguration
+org.springframework.boot.autoconfigure.web.embedded.EmbeddedWebServerFactoryCustomizerAutoConfiguration$TomcatWebServerFactoryCustomizerConfiguration
+org.springframework.boot.autoconfigure.web.servlet.DispatcherServletAutoConfiguration
+org.springframework.boot.autoconfigure.web.servlet.DispatcherServletAutoConfiguration$DispatcherServletConfiguration
+org.springframework.boot.autoconfigure.web.servlet.DispatcherServletAutoConfiguration$DispatcherServletRegistrationConfiguration
+org.springframework.boot.autoconfigure.web.servlet.HttpEncodingAutoConfiguration
+org.springframework.boot.autoconfigure.web.servlet.MultipartAutoConfiguration
+org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryAutoConfiguration
+org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryConfiguration$EmbeddedTomcat
+org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration
+org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration
+org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter
+org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter$FaviconConfiguration
+org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration
+org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration$DefaultErrorViewResolverConfiguration
+org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration
+org.springframework.boot.autoconfigure.websocket.servlet.WebSocketServletAutoConfiguration
+org.springframework.boot.autoconfigure.websocket.servlet.WebSocketServletAutoConfiguration$TomcatWebSocketConfiguration
+org.springframework.boot.context.properties.ConfigurationBeanFactoryMetadata
+org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor
+org.springframework.boot.test.mock.mockito.MockitoPostProcessor
+org.springframework.boot.test.mock.mockito.MockitoPostProcessor$SpyPostProcessor
+org.springframework.boot.test.web.client.TestRestTemplate
+org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer$TestRestTemplateRegistrar
+org.springframework.context.annotation.internalAutowiredAnnotationProcessor
+org.springframework.context.annotation.internalCommonAnnotationProcessor
+org.springframework.context.annotation.internalConfigurationAnnotationProcessor
+org.springframework.context.annotation.internalRequiredAnnotationProcessor
+org.springframework.context.event.internalEventListenerFactory
+org.springframework.context.event.internalEventListenerProcessor
+parameterNamesModule
+pathMappedEndpoints
+preserveErrorControllerTargetClassPostProcessor
+processorMetrics
+propertiesMeterFilter
+propertySourcesPlaceholderConfigurer
+requestContextFilter
+requestMappingHandlerAdapter
+requestMappingHandlerMapping
+resourceHandlerMapping
+restTemplateBuilder
+restTemplateTagConfigurer
+scheduledTasksEndpoint
+server-org.springframework.boot.autoconfigure.web.ServerProperties
+servletEndpointDiscoverer
+servletEndpointRegistrar
+servletExposeExcludePropertyEndpointFilter
+servletMappingDescriptionProvider
+servletWebChildContextFactory
+servletWebServerFactoryCustomizer
+simpleConfig
+simpleControllerHandlerAdapter
+simpleMeterRegistry
+spring.http.encoding-org.springframework.boot.autoconfigure.http.HttpEncodingProperties
+spring.info-org.springframework.boot.autoconfigure.info.ProjectInfoProperties
+spring.jackson-org.springframework.boot.autoconfigure.jackson.JacksonProperties
+spring.mvc-org.springframework.boot.autoconfigure.web.servlet.WebMvcProperties
+spring.resources-org.springframework.boot.autoconfigure.web.ResourceProperties
+spring.servlet.multipart-org.springframework.boot.autoconfigure.web.servlet.MultipartProperties
+standardJacksonObjectMapperBuilderCustomizer
+stringHttpMessageConverter
+tomcatMetrics
+tomcatServletWebServerFactory
+tomcatServletWebServerFactoryCustomizer
+tomcatWebServerFactoryCustomizer
+traceRepository
+uptimeMetrics
+viewControllerHandlerMapping
+viewResolver
+webEndpointDiscoverer
+webEndpointPathMapper
+webEndpointServletHandlerMapping
+webExposeExcludePropertyEndpointFilter
+webMvcMetricsFilter
+webMvcTagsProvider
+webServerFactoryCustomizerBeanPostProcessor
+websocketContainerCustomizer
+welcomePageHandlerMapping
+2018-09-30 09:53:11.332  INFO 15110 --- [o-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-09-30 09:53:11.332  INFO 15110 --- [o-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2018-09-30 09:53:11.358  INFO 15110 --- [o-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 26 ms
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 4.8</a> at Sep 30, 2018 9:53:14 AM</p>
+</div>
+</div>
+</body>
+</html>

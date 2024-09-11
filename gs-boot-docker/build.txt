@@ -1,0 +1,52 @@
+--
+docker  build  --build-arg  JAR_FILE=build/libs/*.jar  -t springio/gs-spring-boot-docker  .
+
+--
+mkdir -p build/dependency && (cd build/dependency; jar -xf ../libs/*.jar)
+
+-- For Gradle
+docker  build  --build-arg  DEPENDENCY=build/dependency  -t  springio/gs-spring-boot-docker  .
+
+
+
+
+To get started quickly, you can run Jib without even changing your pom.xml:
+
+$ ./mvnw com.google.cloud.tools:jib-maven-plugin:dockerBuild -Dimage=springio/gs-spring-boot-docker
+
+To push to a Docker registry you use the build goal, instead of dockerBuild, i.e.
+
+$ ./mvnw com.google.cloud.tools:jib-maven-plugin:build -Dimage=springio/gs-spring-boot-docker
+
+
+
+
+
+You can build a tagged docker image with Gradle in one command:
+
+$ ./gradlew jibDockerBuild --image=springio/gs-spring-boot-docker
+
+As with the Maven build, there is also a build task to build and push to the Docker registry:
+
+$ ./gradlew jib --image=springio/gs-spring-boot-docker
+
+
+docker  run  -p 8080:8080  -t springio/gs-spring-boot-docker
+
+
+
+
+
+docker run -e "SPRING_PROFILES_ACTIVE=prod" -p 8080:8080 -t springio/gs-spring-boot-docker
+
+docker run -e "SPRING_PROFILES_ACTIVE=dev" -p 8080:8080 -t springio/gs-spring-boot-docker
+
+Debugging the application in a Docker container
+
+
+
+
+Debugging the application in a Docker container
+
+docker run -e "JAVA_TOOL_OPTIONS=-agentlib:jdwp=transport=dt_socket,address=5005,server=y,suspend=n" -p 8080:8080 -p 5005:5005 -t springio/gs-spring-boot-docker
+

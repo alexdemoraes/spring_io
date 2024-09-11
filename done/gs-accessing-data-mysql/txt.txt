@@ -1,0 +1,22 @@
+
+docker run --name some-mysql -e MYSQL_ROOT_PASSWORD=my-secret-pw -d mysql:tag
+
+Starting a MySQL instance is simple:
+
+$ docker run --name some-mysql -e MYSQL_ROOT_PASSWORD=my-secret-pw -d mysql:tag
+
+... where some-mysql is the name you want to assign to your container,
+my-secret-pw is the password to be set for the MySQL root user and
+tag is the tag specifying the MySQL version you want.
+See the list above for relevant tags.
+
+docker run --name meusql -e MYSQL_ROOT_PASSWORD=minhasenha -d mysql:5.6
+
+docker run --name meusql -e MYSQL_DATABASE=minhabase  -e MYSQL_USER=usuario  -e MYSQL_ROOT_PASSWORD=minhasenha  -d mysql:5.6
+
+docker run --name meusql -p 3306:3306  -e MYSQL_ROOT_PASSWORD=minhasenharoot  -e MYSQL_DATABASE=minhabase  -e MYSQL_USER=usuario  -e MYSQL_PASSWORD=minhasenha  -d mysql:5.6
+
+
+sudo docker rm -f $(docker ps -a -q)
+
+sudo docker rm -f $(docker images -a -q)
